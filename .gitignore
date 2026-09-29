@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+checkpoints/train.log
+checkpoints/training_history.json
+checkpoints/latest.pt
+checkpoints/final.pt
+.DS_Store
+*.egg-info/
+dist/
+build/
+reels/

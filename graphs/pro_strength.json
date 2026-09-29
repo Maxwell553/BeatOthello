@@ -1,0 +1,73 @@
+{
+  "bot": {
+    "engine": "original",
+    "name": "EngineAgent",
+    "midgame_depth": 8,
+    "exact_empties": 12,
+    "time_limit": null,
+    "eval": "positional/mobility/stability core + self-play pattern residual",
+    "edax": false
+  },
+  "note": "Packaged bot is our searcher: bitboard PVS, original eval, exact endgame. Edax is not used at play time. Winning this ladder is a check that the original engine plays legal, crushing Othello.",
+  "opponents": {
+    "random": {
+      "wins": 4,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 61.0,
+      "games": 4,
+      "as_black": {
+        "wins": 2,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 2,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "greedy": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 57.0,
+      "games": 2,
+      "as_black": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "legacy_search_d6": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 27.0,
+      "games": 2,
+      "as_black": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    }
+  },
+  "total_losses": 0,
+  "unbeaten": true
+}

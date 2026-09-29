@@ -1,0 +1,103 @@
+{
+  "bot": {
+    "engine": "EngineAgent",
+    "midgame_depth": 9,
+    "exact_empties": 12,
+    "time_limit": 1.4,
+    "edax": false
+  },
+  "edax": {
+    "book": false,
+    "n_tasks": 1
+  },
+  "opening_plies": 8,
+  "games_per_level": 100,
+  "levels": {
+    "1": {
+      "edax_level": 1,
+      "wins": 69,
+      "losses": 28,
+      "draws": 3,
+      "win_rate": 0.69,
+      "score": 0.705,
+      "avg_disc_margin": 17.01,
+      "games": 100,
+      "as_black": {
+        "wins": 35,
+        "losses": 12,
+        "draws": 3
+      },
+      "as_white": {
+        "wins": 34,
+        "losses": 16,
+        "draws": 0
+      },
+      "seconds": 2870.7
+    },
+    "0": {
+      "edax_level": 0,
+      "wins": 100,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 55.21,
+      "games": 100,
+      "as_black": {
+        "wins": 50,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 50,
+        "losses": 0,
+        "draws": 0
+      },
+      "seconds": 3136.3
+    },
+    "2": {
+      "edax_level": 2,
+      "wins": 45,
+      "losses": 55,
+      "draws": 0,
+      "win_rate": 0.45,
+      "score": 0.45,
+      "avg_disc_margin": 1.86,
+      "games": 100,
+      "as_black": {
+        "wins": 21,
+        "losses": 29,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 24,
+        "losses": 26,
+        "draws": 0
+      },
+      "seconds": 2899.5
+    },
+    "3": {
+      "edax_level": 3,
+      "wins": 28,
+      "losses": 67,
+      "draws": 5,
+      "win_rate": 0.28,
+      "score": 0.305,
+      "avg_disc_margin": -9.9,
+      "games": 100,
+      "as_black": {
+        "wins": 15,
+        "losses": 31,
+        "draws": 4
+      },
+      "as_white": {
+        "wins": 13,
+        "losses": 36,
+        "draws": 1
+      },
+      "seconds": 2873.3
+    }
+  },
+  "note": "Our packaged engine vs Edax playing levels 0-21. 100 games each, alternating colors, seeded random openings. Edax book off. Levels 22-60 are solve-class and omitted.",
+  "seed": 20260928
+}

@@ -1,0 +1,40 @@
+{
+  "bot": {
+    "engine": "EngineAgent",
+    "midgame_depth": 9,
+    "exact_empties": 12,
+    "time_limit": 1.4,
+    "edax": false
+  },
+  "edax": {
+    "book": false,
+    "n_tasks": 1
+  },
+  "opening_plies": 8,
+  "games_per_level": 2,
+  "levels": {
+    "0": {
+      "edax_level": 0,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 50.0,
+      "games": 2,
+      "as_black": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "seconds": 64.5
+    }
+  },
+  "note": "Our packaged engine vs Edax playing levels 0-21. 100 games each, alternating colors, seeded random openings. Edax book off. Levels 22-60 are solve-class and omitted.",
+  "seed": 20260928
+}

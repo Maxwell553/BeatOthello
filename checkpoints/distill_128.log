@@ -1,0 +1,18 @@
+Distill 96x6 → 128x8 from checkpoints/best.pt
+[0001/200] loss=2.490 π=2.153 V=0.674 acc=0.219 elapsed=1s
+[0025/200] loss=0.515 π=0.445 V=0.141 acc=0.820 elapsed=33s
+[0050/200] loss=0.764 π=0.728 V=0.072 acc=0.750 elapsed=66s
+[0075/200] loss=0.628 π=0.582 V=0.092 acc=0.742 elapsed=94s
+[0100/200] loss=0.628 π=0.611 V=0.034 acc=0.797 elapsed=130s
+[0125/200] loss=0.616 π=0.592 V=0.048 acc=0.812 elapsed=163s
+[0150/200] loss=0.205 π=0.199 V=0.011 acc=0.938 elapsed=193s
+[0175/200] loss=0.375 π=0.352 V=0.046 acc=0.867 elapsed=229s
+[0200/200] loss=0.628 π=0.608 V=0.040 acc=0.773 elapsed=258s
+Saved checkpoints/student_128x8.pt (128x8)
+Distill 96x6 → 128x8 from checkpoints/best.pt
+[0001/600] loss=2.473 π=2.228 V=0.491 acc=0.150 elapsed=1s
+Distill 96x6 → 128x8 from checkpoints/best.pt
+[0001/600] loss=2.426 π=2.153 V=0.544 acc=0.172 elapsed=1s
+[0025/600] loss=0.794 π=0.731 V=0.127 acc=0.719 elapsed=31s
+[0050/600] loss=0.835 π=0.781 V=0.109 acc=0.695 elapsed=70s
+[0075/600] loss=0.704 π=0.672 V=0.064 acc=0.688 elapsed=102s

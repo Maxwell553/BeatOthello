@@ -1,0 +1,215 @@
+{
+  "bot": {
+    "fast": {
+      "midgame_depth": 6,
+      "exact_empties": 8
+    },
+    "champion": {
+      "midgame_depth": 8,
+      "exact_empties": 10,
+      "parity_adjust": true
+    }
+  },
+  "opponents": {
+    "random": {
+      "wins": 20,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 41.55,
+      "games": 20,
+      "as_black": {
+        "wins": 10,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 10,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "greedy": {
+      "wins": 10,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 56.5,
+      "games": 10,
+      "as_black": {
+        "wins": 5,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 5,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "mobility": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 33.0,
+      "games": 8,
+      "as_black": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "positional": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 48.0,
+      "games": 8,
+      "as_black": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "depth2": {
+      "wins": 10,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 28.5,
+      "games": 10,
+      "as_black": {
+        "wins": 5,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 5,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "depth3": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 48.625,
+      "games": 8,
+      "as_black": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "depth4": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 38.5,
+      "games": 6,
+      "as_black": {
+        "wins": 3,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 3,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "depth5": {
+      "wins": 8,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 43.0,
+      "games": 8,
+      "as_black": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "depth6": {
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "win_rate": 1.0,
+      "score": 1.0,
+      "avg_disc_margin": 31.0,
+      "games": 2,
+      "as_black": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      },
+      "as_white": {
+        "wins": 1,
+        "losses": 0,
+        "draws": 0
+      }
+    }
+  },
+  "total_losses": 0,
+  "unbeaten": true,
+  "artifacts": {
+    "graphs": [
+      "color_split.png",
+      "disc_margin.png",
+      "results.json",
+      "score_by_opponent.png",
+      "unbeaten_cumulative_losses.png",
+      "win_draw_loss.png"
+    ],
+    "animations": [
+      "ladder_scores.gif",
+      "self_play.gif",
+      "self_play_discs.gif",
+      "vs_depth4.gif",
+      "vs_depth4_discs.gif",
+      "vs_depth5.gif",
+      "vs_depth5_discs.gif",
+      "vs_depth6.gif",
+      "vs_depth6_discs.gif",
+      "vs_greedy.gif",
+      "vs_greedy_discs.gif",
+      "vs_positional.gif",
+      "vs_positional_discs.gif",
+      "vs_random.gif",
+      "vs_random_discs.gif"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+Resumed weights from checkpoints/best.pt
+========================================================================
+Othello PPO self-play training
+device=cpu  channels=64  blocks=5
+games/update=48  updates=150
+Reward: +1 win / -1 loss / 0 draw  |  No search
+========================================================================
+[0001/150] samples=1909 B/W/D=27/18/3 π=-0.069 V=0.735 H=1.649 kl=0.0161 T=1.00 frozen=33
+[0002/150] samples=2055 B/W/D=20/26/2 π=0.101 V=1.221 H=1.701 kl=0.0171 T=1.00 frozen=28
+[0003/150] samples=2059 B/W/D=25/23/0 π=-0.004 V=0.917 H=1.640 kl=0.0131 T=1.00 frozen=28
+[0004/150] samples=2091 B/W/D=25/21/2 π=-0.050 V=0.848 H=1.652 kl=0.0137 T=0.99 frozen=27
+[0005/150] samples=2023 B/W/D=27/21/0 π=-0.047 V=0.867 H=1.647 kl=0.0074 T=0.99 frozen=29
+[0006/150] samples=2027 B/W/D=23/24/1 π=-0.047 V=0.958 H=1.611 kl=0.0080 T=0.99 frozen=29
+[0007/150] samples=1998 B/W/D=22/26/0 π=-0.047 V=0.902 H=1.600 kl=0.0128 T=0.99 frozen=30
+[0008/150] samples=2127 B/W/D=22/25/1 π=-0.045 V=0.735 H=1.620 kl=0.0152 T=0.98 frozen=26
+[0009/150] samples=2151 B/W/D=23/18/7 π=-0.055 V=0.753 H=1.607 kl=0.0092 T=0.98 frozen=25
+[0010/150] samples=1970 B/W/D=25/23/0 π=-0.047 V=0.844 H=1.609 kl=0.0138 T=0.98 frozen=31
+  eval  vs_random score=0.84 (W66/L12/D2)  vs_greedy score=0.50 (W40/L40/D0)
+[0011/150] samples=1783 B/W/D=25/18/5 π=-0.047 V=0.830 H=1.568 kl=0.0105 T=0.98 frozen=37
